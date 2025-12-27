@@ -1,0 +1,76 @@
+* {
+	font-family: 'Cascadia Mono';
+	color: #7FADDB;
+	text-align: center;
+}
+
+
+body {
+	background-color: #3D1000;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 350px;
+}
+
+ul li {
+	float: left;
+}
+
+ul li a {
+	display: block;
+	color: #D6CFA8;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+ul li a:hover {
+	background-color: #86A326;
+}
+ul li a:visited {
+	color: #D6CFA8;
+}
+ul li a:active {
+	color:red;
+}
+
+a:visited {
+	color:#C896D1;
+}
+
+a:active {
+	color:red;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+	margin: 5px;
+}
+
+div.scroll-container {
+	  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.bodycolumn {
+	columns: 2;
+	gap: 1.25rem;
+}
+.bodycolumn img{
+	margin-bottom: 1.25rem;
+	display:block;
+}
